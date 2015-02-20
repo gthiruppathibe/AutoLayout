@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C32375DECA5B3109957B17E /* libPods-StudentRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6F99026D4086EDFA2B67E3 /* libPods-StudentRecord.a */; };
+		D5CE95D71A846E4300084FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CE95D61A846E4300084FBB /* main.m */; };
+		D5CE95DA1A846E4300084FBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CE95D91A846E4300084FBB /* AppDelegate.m */; };
+		D5CE95E01A846E4300084FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CE95DE1A846E4300084FBB /* Main.storyboard */; };
+		D5CE95E21A846E4300084FBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CE95E11A846E4300084FBB /* Images.xcassets */; };
+		D5CE95F11A846E4300084FBB /* StudentRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CE95F01A846E4300084FBB /* StudentRecordTests.m */; };
+		D5CE96031A84A72800084FBB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CE96021A84A72800084FBB /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5CE95EB1A846E4300084FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5CE95C91A846E4300084FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5CE95D01A846E4300084FBB;
+			remoteInfo = StudentRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33B70F477FFD58A77C6F601B /* Pods-StudentRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudentRecord/Pods-StudentRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9606F518A4F4B51DDA5696 /* Pods-StudentRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudentRecord/Pods-StudentRecord.release.xcconfig"; sourceTree = "<group>"; };
+		BF6F99026D4086EDFA2B67E3 /* libPods-StudentRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StudentRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CE95D11A846E4300084FBB /* StudentRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CE95D51A846E4300084FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CE95D61A846E4300084FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5CE95D81A846E4300084FBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5CE95D91A846E4300084FBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5CE95DF1A846E4300084FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5CE95E11A846E4300084FBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5CE95EA1A846E4300084FBB /* StudentRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudentRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CE95EF1A846E4300084FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CE95F01A846E4300084FBB /* StudentRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentRecordTests.m; sourceTree = "<group>"; };
+		D5CE96011A84A72800084FBB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D5CE96021A84A72800084FBB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5CE95CE1A846E4300084FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C32375DECA5B3109957B17E /* libPods-StudentRecord.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CE95E71A846E4300084FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4519B72DA41D4A6E61BD5958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F99026D4086EDFA2B67E3 /* libPods-StudentRecord.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5CE95C81A846E4300084FBB = {
+			isa = PBXGroup;
+			children = (
+				D5CE96011A84A72800084FBB /* FirstViewController.h */,
+				D5CE96021A84A72800084FBB /* FirstViewController.m */,
+				D5CE95D31A846E4300084FBB /* StudentRecord */,
+				D5CE95ED1A846E4300084FBB /* StudentRecordTests */,
+				D5CE95D21A846E4300084FBB /* Products */,
+				E2B2403712F1CD7ABF921E87 /* Pods */,
+				4519B72DA41D4A6E61BD5958 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5CE95D21A846E4300084FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5CE95D11A846E4300084FBB /* StudentRecord.app */,
+				D5CE95EA1A846E4300084FBB /* StudentRecordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5CE95D31A846E4300084FBB /* StudentRecord */ = {
+			isa = PBXGroup;
+			children = (
+				D5CE95D81A846E4300084FBB /* AppDelegate.h */,
+				D5CE95D91A846E4300084FBB /* AppDelegate.m */,
+				D5CE95DE1A846E4300084FBB /* Main.storyboard */,
+				D5CE95E11A846E4300084FBB /* Images.xcassets */,
+				D5CE95D41A846E4300084FBB /* Supporting Files */,
+			);
+			path = StudentRecord;
+			sourceTree = "<group>";
+		};
+		D5CE95D41A846E4300084FBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CE95D51A846E4300084FBB /* Info.plist */,
+				D5CE95D61A846E4300084FBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5CE95ED1A846E4300084FBB /* StudentRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5CE95F01A846E4300084FBB /* StudentRecordTests.m */,
+				D5CE95EE1A846E4300084FBB /* Supporting Files */,
+			);
+			path = StudentRecordTests;
+			sourceTree = "<group>";
+		};
+		D5CE95EE1A846E4300084FBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CE95EF1A846E4300084FBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2B2403712F1CD7ABF921E87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33B70F477FFD58A77C6F601B /* Pods-StudentRecord.debug.xcconfig */,
+				BE9606F518A4F4B51DDA5696 /* Pods-StudentRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5CE95D01A846E4300084FBB /* StudentRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CE95F41A846E4300084FBB /* Build configuration list for PBXNativeTarget "StudentRecord" */;
+			buildPhases = (
+				7D562076DB6F8EC490C84E56 /* Check Pods Manifest.lock */,
+				D5CE95CD1A846E4300084FBB /* Sources */,
+				D5CE95CE1A846E4300084FBB /* Frameworks */,
+				D5CE95CF1A846E4300084FBB /* Resources */,
+				5AC4607FB15A4F54CE534114 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentRecord;
+			productName = StudentRecord;
+			productReference = D5CE95D11A846E4300084FBB /* StudentRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5CE95E91A846E4300084FBB /* StudentRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CE95F71A846E4300084FBB /* Build configuration list for PBXNativeTarget "StudentRecordTests" */;
+			buildPhases = (
+				D5CE95E61A846E4300084FBB /* Sources */,
+				D5CE95E71A846E4300084FBB /* Frameworks */,
+				D5CE95E81A846E4300084FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5CE95EC1A846E4300084FBB /* PBXTargetDependency */,
+			);
+			name = StudentRecordTests;
+			productName = StudentRecordTests;
+			productReference = D5CE95EA1A846E4300084FBB /* StudentRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5CE95C91A846E4300084FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Thiruppathi Gandhi";
+				TargetAttributes = {
+					D5CE95D01A846E4300084FBB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D5CE95E91A846E4300084FBB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D5CE95D01A846E4300084FBB;
+					};
+				};
+			};
+			buildConfigurationList = D5CE95CC1A846E4300084FBB /* Build configuration list for PBXProject "StudentRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5CE95C81A846E4300084FBB;
+			productRefGroup = D5CE95D21A846E4300084FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5CE95D01A846E4300084FBB /* StudentRecord */,
+				D5CE95E91A846E4300084FBB /* StudentRecordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5CE95CF1A846E4300084FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CE95E01A846E4300084FBB /* Main.storyboard in Resources */,
+				D5CE95E21A846E4300084FBB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CE95E81A846E4300084FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AC4607FB15A4F54CE534114 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudentRecord/Pods-StudentRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D562076DB6F8EC490C84E56 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5CE95CD1A846E4300084FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CE95DA1A846E4300084FBB /* AppDelegate.m in Sources */,
+				D5CE96031A84A72800084FBB /* FirstViewController.m in Sources */,
+				D5CE95D71A846E4300084FBB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5CE95E61A846E4300084FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CE95F11A846E4300084FBB /* StudentRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5CE95EC1A846E4300084FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5CE95D01A846E4300084FBB /* StudentRecord */;
+			targetProxy = D5CE95EB1A846E4300084FBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5CE95DE1A846E4300084FBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5CE95DF1A846E4300084FBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5CE95F21A846E4300084FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5CE95F31A846E4300084FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5CE95F51A846E4300084FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B70F477FFD58A77C6F601B /* Pods-StudentRecord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5CE95F61A846E4300084FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9606F518A4F4B51DDA5696 /* Pods-StudentRecord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5CE95F81A846E4300084FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StudentRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentRecord.app/StudentRecord";
+			};
+			name = Debug;
+		};
+		D5CE95F91A846E4300084FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StudentRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudentRecord.app/StudentRecord";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5CE95CC1A846E4300084FBB /* Build configuration list for PBXProject "StudentRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CE95F21A846E4300084FBB /* Debug */,
+				D5CE95F31A846E4300084FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CE95F41A846E4300084FBB /* Build configuration list for PBXNativeTarget "StudentRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CE95F51A846E4300084FBB /* Debug */,
+				D5CE95F61A846E4300084FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CE95F71A846E4300084FBB /* Build configuration list for PBXNativeTarget "StudentRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CE95F81A846E4300084FBB /* Debug */,
+				D5CE95F91A846E4300084FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5CE95C91A846E4300084FBB /* Project object */;
+}
